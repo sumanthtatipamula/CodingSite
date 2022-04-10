@@ -5,18 +5,18 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<link href="https://example.com/dp/sample/" rel="canonical"/>
-<link href="../../assets/images/favicon.png" rel="icon"/>
+<link href="https://example.com/arrays/" rel="canonical"/>
+<link href="../assets/images/favicon.png" rel="icon"/>
 <meta content="mkdocs-1.3.0, mkdocs-material-8.2.8" name="generator"/>
-<title>Shortest Common Supersequence - Competitive Programming</title>
-<link href="../../assets/stylesheets/main.644de097.min.css" rel="stylesheet"/>
-<link href="../../assets/stylesheets/palette.e6a45f82.min.css" rel="stylesheet"/>
+<title>21. Shortest Common Supersequence - Competitive Programming</title>
+<link href="../assets/stylesheets/main.644de097.min.css" rel="stylesheet"/>
+<link href="../assets/stylesheets/palette.e6a45f82.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
 <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
-<link href="../../css/timeago.css" rel="stylesheet"/>
-<link href="../../stylesheets/extra.css" rel="stylesheet"/>
-<script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<link href="../css/timeago.css" rel="stylesheet"/>
+<link href="../stylesheets/extra.css" rel="stylesheet"/>
+<script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
 </head>
 <body data-md-color-accent="" data-md-color-primary="" data-md-color-scheme="coding" dir="ltr">
 <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
@@ -24,7 +24,7 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#shortest-common-supersequence">
+<a class="md-skip" href="#21-shortest-common-supersequence">
           Skip to content
         </a>
 </div>
@@ -32,7 +32,7 @@
 </div>
 <header class="md-header" data-md-component="header">
 <nav aria-label="Header" class="md-header__inner md-grid">
-<a aria-label="Competitive Programming" class="md-header__button md-logo" data-md-component="logo" href="../.." title="Competitive Programming">
+<a aria-label="Competitive Programming" class="md-header__button md-logo" data-md-component="logo" href=".." title="Competitive Programming">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"></path></svg>
 </a>
 <label class="md-header__button md-icon" for="__drawer">
@@ -48,7 +48,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              Shortest Common Supersequence
+              21. Shortest Common Supersequence
             
           </span>
 </div>
@@ -111,67 +111,67 @@
 <div class="md-tabs__inner md-grid">
 <ul class="md-tabs__list">
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../..">
+<a class="md-tabs__link" href="..">
         Home
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../--separator--">
+<a class="md-tabs__link" href="../--separator--">
         |
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link md-tabs__link--active" href="../">
+<a class="md-tabs__link" href="../dp/">
         Arrays
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../strings/sample/">
+<a class="md-tabs__link" href="../strings/sample/">
         Strings
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../strings/sample/">
+<a class="md-tabs__link" href="../strings/sample/">
         LinkedList
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../--separator--">
+<a class="md-tabs__link" href="../--separator--">
         |
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../strings/sample/">
+<a class="md-tabs__link" href="../strings/sample/">
         Stacks &amp; Queues
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../strings/sample/">
+<a class="md-tabs__link" href="../strings/sample/">
         Backtracking
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../strings/sample/">
+<a class="md-tabs__link" href="../strings/sample/">
         Greedy
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../--separator--">
+<a class="md-tabs__link" href="../--separator--">
         |
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../strings/sample/">
+<a class="md-tabs__link" href="../strings/sample/">
         DP
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../strings/sample/">
+<a class="md-tabs__link" href="../strings/sample/">
         Trees
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../strings/sample/">
+<a class="md-tabs__link" href="../strings/sample/">
         Graphs
       </a>
 </li>
@@ -185,7 +185,7 @@
 <div class="md-sidebar__inner">
 <nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" data-md-level="0">
 <label class="md-nav__title" for="__drawer">
-<a aria-label="Competitive Programming" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="Competitive Programming">
+<a aria-label="Competitive Programming" class="md-nav__button md-logo" data-md-component="logo" href=".." title="Competitive Programming">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"></path></svg>
 </a>
     Competitive Programming
@@ -204,7 +204,7 @@
 <li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" id="__nav_1" type="checkbox"/>
 <div class="md-nav__link md-nav__link--index">
-<a href="../..">Home</a>
+<a href="..">Home</a>
 </div>
 <nav aria-label="Home" class="md-nav" data-md-level="1">
 <label class="md-nav__title" for="__nav_1">
@@ -228,15 +228,15 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../--separator--">
+<a class="md-nav__link" href="../--separator--">
         None
       </a>
 </li>
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--active md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" id="__nav_3" type="checkbox"/>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" id="__nav_3" type="checkbox"/>
 <label class="md-nav__link" for="__nav_3">
           Arrays
           <span class="md-nav__icon md-icon"></span>
@@ -247,10 +247,10 @@
           Arrays
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--active md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" id="__nav_3_1" type="checkbox"/>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" id="__nav_3_1" type="checkbox"/>
 <div class="md-nav__link md-nav__link--index">
-<a href="../">TEST</a>
+<a href="../dp/">TEST</a>
 <label for="__nav_3_1">
 <span class="md-nav__icon md-icon"></span>
 </label>
@@ -261,38 +261,10 @@
           TEST
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--active">
-<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
-<label class="md-nav__link md-nav__link--active" for="__toc">
-          Shortest Common Supersequence
-          <span class="md-nav__icon md-icon"></span>
-</label>
-<a class="md-nav__link md-nav__link--active" href="./">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../dp/sample/">
         Shortest Common Supersequence
       </a>
-<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
-<label class="md-nav__title" for="__toc">
-<span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#playground">
-    Playground
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#solution">
-    Solution
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#explanation">
-    Explanation
-  </a>
-</li>
-</ul>
-</nav>
 </li>
 </ul>
 </nav>
@@ -313,7 +285,7 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../strings/sample/">
+<a class="md-nav__link" href="../strings/sample/">
         None
       </a>
 </li>
@@ -333,7 +305,7 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../strings/sample/">
+<a class="md-nav__link" href="../strings/sample/">
         None
       </a>
 </li>
@@ -353,7 +325,7 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../--separator--">
+<a class="md-nav__link" href="../--separator--">
         None
       </a>
 </li>
@@ -373,7 +345,7 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../strings/sample/">
+<a class="md-nav__link" href="../strings/sample/">
         None
       </a>
 </li>
@@ -393,7 +365,7 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../strings/sample/">
+<a class="md-nav__link" href="../strings/sample/">
         None
       </a>
 </li>
@@ -413,7 +385,7 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../strings/sample/">
+<a class="md-nav__link" href="../strings/sample/">
         None
       </a>
 </li>
@@ -433,7 +405,7 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../--separator--">
+<a class="md-nav__link" href="../--separator--">
         None
       </a>
 </li>
@@ -453,7 +425,7 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../strings/sample/">
+<a class="md-nav__link" href="../strings/sample/">
         None
       </a>
 </li>
@@ -473,7 +445,7 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../strings/sample/">
+<a class="md-nav__link" href="../strings/sample/">
         None
       </a>
 </li>
@@ -493,7 +465,7 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../strings/sample/">
+<a class="md-nav__link" href="../strings/sample/">
         Shortest Common Supersequence
       </a>
 </li>
@@ -507,98 +479,89 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<a class="md-content__button md-icon" href="https://github.com/squidfunk/mkdocs-material/edit/master/docs/dp/sample.md" title="Edit this page">
+<a class="md-content__button md-icon" href="https://github.com/squidfunk/mkdocs-material/edit/master/docs/arrays/index.md" title="Edit this page">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"></path></svg>
 </a>
 <nav class="md-tags">
 <span class="md-tag">Dynamic Programming</span>
 <span class="md-tag">Medium</span>
 </nav>
-<h1 id="shortest-common-supersequence">Shortest Common Supersequence</h1>
-<hr/>
-<div class="problem-statement">
-<p></p><p><span style="font-size:16px">Given two strings X and Y of lengths m and n respectively, find the length of the smallest string which has both, X and Y as its sub-sequences.<br/>
-Note: X and Y can have both uppercase and lowercase letters.</span></p> </div>
-<div class="admonition examples">
-<p class="admonition-title">Examples</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio"><input id="__tabbed_1_2" name="__tabbed_1" type="radio"><div class="tabbed-labels"><label for="__tabbed_1_1">Example-1</label><label for="__tabbed_1_2">Example-2</label></div>
+<h1 id="21-shortest-common-supersequence">21. Shortest Common Supersequence</h1>
+<details class="note">
+<summary>Note</summary>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+massa, nec semper lorem quam in massa.</p>
+</details>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio"><input id="__tabbed_1_2" name="__tabbed_1" type="radio"><div class="tabbed-labels"><label for="__tabbed_1_1">Unordered List</label><label for="__tabbed_1_2">Ordered List</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<div class="highlight"><pre><span></span><code><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a>Input : X = abcd, Y = xycd
-<a href="#__codelineno-0-2" id="__codelineno-0-2" name="__codelineno-0-2"></a>Output: 6
-<a href="#__codelineno-0-3" id="__codelineno-0-3" name="__codelineno-0-3"></a>Explanation : Shortest Common Supersequence would be abxycd which is of length 6 and has both the strings as its subsequences.
+<div class="highlight"><span class="filename">List, unordered</span><pre><span></span><code><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="k">*</span> Sed sagittis eleifend rutrum
+<a href="#__codelineno-0-2" id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="k">*</span> Donec vitae suscipit est
+<a href="#__codelineno-0-3" id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="k">*</span> Nulla tempor lobortis orci
 </code></pre></div>
 </div>
 <div class="tabbed-block">
-<div class="highlight"><pre><span></span><code><a href="#__codelineno-1-1" id="__codelineno-1-1" name="__codelineno-1-1"></a>Input: X = efgh, Y = jghi
-<a href="#__codelineno-1-2" id="__codelineno-1-2" name="__codelineno-1-2"></a>Output: 6
-<a href="#__codelineno-1-3" id="__codelineno-1-3" name="__codelineno-1-3"></a>Explanation: Shortest Common Supersequence would be ejfghi which is of length 6 and has both the strings as its subsequences
+<div class="highlight"><span class="filename">List, ordered</span><pre><span></span><code><a href="#__codelineno-1-1" id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="k">1.</span> Sed sagittis eleifend rutrum
+<a href="#__codelineno-1-2" id="__codelineno-1-2" name="__codelineno-1-2"></a><span class="k">2.</span> Donec vitae suscipit est
+<a href="#__codelineno-1-3" id="__codelineno-1-3" name="__codelineno-1-3"></a><span class="k">3.</span> Nulla tempor lobortis orci
 </code></pre></div>
 </div>
 </div>
 </input></input></div>
 </div>
-<details class="hint">
-<summary>Hint - 1</summary>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-massa, nec semper lorem quam in massa.</p>
-</details>
-<details class="hint">
-<summary>Hint - 2</summary>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-massa, nec semper lorem quam in massa.</p>
-</details>
-<h2 id="playground">Playground</h2>
-<hr/>
-<iframe allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts" src="https://codesandbox.io/embed/silly-grass-9lgo37?fontsize=14&amp;hidenavigation=1&amp;theme=dark&amp;runonclick=1&amp;view=split&amp;previewwindow=tests&amp;codemirror=1" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" title="silly-grass-9lgo37"></iframe>
-<script async="" src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-<h2 id="solution">Solution</h2>
-<hr/>
 <div class="tabbed-set tabbed-alternate" data-tabs="2:3"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio"><input id="__tabbed_2_2" name="__tabbed_2" type="radio"><input id="__tabbed_2_3" name="__tabbed_2" type="radio"><div class="tabbed-labels"><label for="__tabbed_2_1">C</label><label for="__tabbed_2_2">C++</label><label for="__tabbed_2_3">Video</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<p class="annotate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-2-1">1</a></span>
-<span class="normal"><a href="#__codelineno-2-2">2</a></span>
-<span class="normal"><a href="#__codelineno-2-3">3</a></span>
-<span class="normal"><a href="#__codelineno-2-4">4</a></span>
-<span class="normal"><a href="#__codelineno-2-5">5</a></span>
-<span class="normal"><a href="#__codelineno-2-6">6</a></span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span><span class="cp"></span>
-<a id="__codelineno-2-2" name="__codelineno-2-2"></a>
-<a id="__codelineno-2-3" name="__codelineno-2-3"></a><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
-<a id="__codelineno-2-4" name="__codelineno-2-4"></a><span class="n">printf</span><span class="p">(</span><span class="s">"Hello world!</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span><span class="w"> </span><span class="c1">// (1)</span>
-<a id="__codelineno-2-5" name="__codelineno-2-5"></a><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"></span>
-<a id="__codelineno-2-6" name="__codelineno-2-6"></a><span class="p">}</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-2-1" id="__codelineno-2-1" name="__codelineno-2-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span><span class="cp"></span>
+<a href="#__codelineno-2-2" id="__codelineno-2-2" name="__codelineno-2-2"></a>
+<a href="#__codelineno-2-3" id="__codelineno-2-3" name="__codelineno-2-3"></a><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<a href="#__codelineno-2-4" id="__codelineno-2-4" name="__codelineno-2-4"></a><span class="w">  </span><span class="n">printf</span><span class="p">(</span><span class="s">"Hello world!</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span><span class="w"></span>
+<a href="#__codelineno-2-5" id="__codelineno-2-5" name="__codelineno-2-5"></a><span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"></span>
+<a href="#__codelineno-2-6" id="__codelineno-2-6" name="__codelineno-2-6"></a><span class="p">}</span><span class="w"></span>
 </code></pre></div>
-</td></tr></table></p>
-<ol>
-<li><img alt="🙋‍♂️" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f64b-200d-2642-fe0f.svg" title=":man_raising_hand:"/> I'm a code annotation! I can contain <code>code</code>, <strong>formatted
-text</strong>, images, ... basically anything that can be written in Markdown.</li>
-</ol>
 </div>
 <div class="tabbed-block">
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-3-1">1</a></span>
-<span class="normal"><a href="#__codelineno-3-2">2</a></span>
-<span class="normal"><a href="#__codelineno-3-3">3</a></span>
-<span class="normal"><a href="#__codelineno-3-4">4</a></span>
-<span class="normal"><a href="#__codelineno-3-5">5</a></span>
-<span class="normal"><a href="#__codelineno-3-6">6</a></span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span><span class="cp"></span>
-<a id="__codelineno-3-2" name="__codelineno-3-2"></a>
-<a id="__codelineno-3-3" name="__codelineno-3-3"></a><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
-<a id="__codelineno-3-4" name="__codelineno-3-4"></a><span class="w">  </span><span class="n">std</span><span class="o">::</span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">"Hello world!"</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span><span class="w"> </span><span class="err">#</span><span class="w"> </span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="w"></span>
-<a id="__codelineno-3-5" name="__codelineno-3-5"></a><span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"></span>
-<a id="__codelineno-3-6" name="__codelineno-3-6"></a><span class="p">}</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-3-1" id="__codelineno-3-1" name="__codelineno-3-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span><span class="cp"></span>
+<a href="#__codelineno-3-2" id="__codelineno-3-2" name="__codelineno-3-2"></a>
+<a href="#__codelineno-3-3" id="__codelineno-3-3" name="__codelineno-3-3"></a><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+<a href="#__codelineno-3-4" id="__codelineno-3-4" name="__codelineno-3-4"></a><span class="w">  </span><span class="n">std</span><span class="o">::</span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">"Hello world!"</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span><span class="w"></span>
+<a href="#__codelineno-3-5" id="__codelineno-3-5" name="__codelineno-3-5"></a><span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"></span>
+<a href="#__codelineno-3-6" id="__codelineno-3-6" name="__codelineno-3-6"></a><span class="p">}</span><span class="w"></span>
 </code></pre></div>
-</td></tr></table>
 </div>
 <div class="tabbed-block">
 <p><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/vZNyjuNLhIk" width="560"></iframe></p>
 </div>
 </div>
 </input></input></input></div>
-<h2 id="explanation">Explanation</h2>
-<hr/>
+<div class="problem-statement">
+<p></p><p><span style="font-size:16px">Given two strings X and Y of lengths m and n respectively, find the length of the smallest string which has both, X and Y as its sub-sequences.<br/>
+Note: X and Y can have both uppercase and lowercase letters.</span></p>
+<p><span style="font-size:16px"><strong>Example 1</strong></span></p>
+<pre><span style="font-size:16px"><strong>Input:
+</strong>X = abcd, Y = xycd
+<strong>Output: </strong>6<strong>
+Explanation: </strong>Shortest Common Supersequence
+would be abxycd which is of length 6 and
+has both the strings as its subsequences.</span>
+</pre>
+<p><span style="font-size:16px"><strong>Example 2</strong></span></p>
+<div style="background-color: rgb(50, 50, 50);"><span style="font-size:16px">
+<div class="highlight"><pre><span></span><code><a href="#__codelineno-4-1" id="__codelineno-4-1" name="__codelineno-4-1"></a>Input:
+<a href="#__codelineno-4-2" id="__codelineno-4-2" name="__codelineno-4-2"></a>X = efgh, Y = jghi
+<a href="#__codelineno-4-3" id="__codelineno-4-3" name="__codelineno-4-3"></a><span class="gs">__Output: 6__</span>
+<a href="#__codelineno-4-4" id="__codelineno-4-4" name="__codelineno-4-4"></a>Explanation: Shortest Common Supersequence would be ejfghi which is of length 6 and has both the strings as its subsequences.
+</code></pre></div>
+</span></div>
+<p><span style="font-size:16px"><strong>Your Task:</strong><br/>
+Complete <strong>shortestCommonSupersequence()</strong> function that takes X, Y, m, and n as arguments and returns the length of the required string.</span></p>
+<p><span style="font-size:16px"><strong>Expected Time Complexity: </strong>O(Length(X) * Length(Y)).<br/>
+<strong>Expected Auxiliary Space: </strong>O(Length(X) * Length(Y)).</span></p>
+<p><span style="font-size:18px"><strong>Constraints:</strong><br/>
+1&lt;= |X|, |Y| &lt;= 100</span></p>
 <pre class="mermaid"><code>%%{init: { 'logLevel': 'debug', 'theme': 'base', 'gitGraph': {'showBranches': false}} }%%
       gitGraph
         commit
@@ -642,12 +605,17 @@ text</strong>, images, ... basically anything that can be written in Markdown.</
         merge main
         checkout develop
         merge release</code></pre>
+<p> </p>
+<p></p>
+<iframe allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking" sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts" src="https://codesandbox.io/embed/silly-grass-9lgo37?fontsize=14&amp;hidenavigation=1&amp;theme=dark&amp;runonclick=1&amp;view=split&amp;previewwindow=tests&amp;codemirror=1" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" title="silly-grass-9lgo37"></iframe>
+<script async="" src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+</div>
 <hr/>
 <div class="md-source-file">
 <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2022-04-10T01:08:16+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2022-04-10</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2022-04-10T01:19:29+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2022-04-10</span>
 </small>
 </div>
 </article>
@@ -655,34 +623,6 @@ text</strong>, images, ... basically anything that can be written in Markdown.</
 </div>
 </main>
 <footer class="md-footer">
-<nav aria-label="Footer" class="md-footer__inner md-grid">
-<a aria-label="Previous: 21. Shortest Common Supersequence" class="md-footer__link md-footer__link--prev" href="../" rel="prev">
-<div class="md-footer__button md-icon">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"></path></svg>
-</div>
-<div class="md-footer__title">
-<div class="md-ellipsis">
-<span class="md-footer__direction">
-                Previous
-              </span>
-              21. Shortest Common Supersequence
-            </div>
-</div>
-</a>
-<a aria-label="Next: None" class="md-footer__link md-footer__link--next" href="../../strings/sample/" rel="next">
-<div class="md-footer__title">
-<div class="md-ellipsis">
-<span class="md-footer__direction">
-                Next
-              </span>
-              None
-            </div>
-</div>
-<div class="md-footer__button md-icon">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"></path></svg>
-</div>
-</a>
-</nav>
 <div class="md-footer-meta md-typeset">
 <div class="md-footer-meta__inner md-grid">
 <div class="md-copyright">
@@ -699,11 +639,11 @@ text</strong>, images, ... basically anything that can be written in Markdown.</
 <div class="md-dialog" data-md-component="dialog">
 <div class="md-dialog__inner md-typeset"></div>
 </div>
-<script id="__config" type="application/json">{"base": "../..", "features": ["header.autohide", "navigation.tabs", "navigation.tracking", "search.highlight", "navigation.indexes", "content.tabs.link", "toc.integrate", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.5e67fbfe.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
-<script src="../../assets/javascripts/bundle.c44cc438.min.js"></script>
-<script src="../../js/timeago.min.js"></script>
-<script src="../../js/timeago_mkdocs_material.js"></script>
+<script id="__config" type="application/json">{"base": "..", "features": ["header.autohide", "navigation.tabs", "navigation.tracking", "search.highlight", "navigation.indexes", "content.tabs.link", "toc.integrate", "content.code.annotate"], "search": "../assets/javascripts/workers/search.5e67fbfe.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+<script src="../assets/javascripts/bundle.c44cc438.min.js"></script>
+<script src="../js/timeago.min.js"></script>
+<script src="../js/timeago_mkdocs_material.js"></script>
 <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
-<script src="../../extra/refresh_on_toggle_dark_light.js"></script>
+<script src="../extra/refresh_on_toggle_dark_light.js"></script>
 </body>
 </html>
